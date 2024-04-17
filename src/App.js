@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <main>
-     <div style={{backgroundImage:`url('/img/br.svg')`}} className="h-full w-full absolute bg-cover -z-50 blur-[100px]">
+     <div style={{backgroundImage:`url('/img/br3.svg')`}} className="h-full w-full absolute bg-cover -z-50 blur-[100px]">
     {/*glowing background*/}
     </div>
     <Navbar/>
