@@ -4,7 +4,7 @@ import { faBars } from '@fortawesome/fontawesome-free-solid';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
